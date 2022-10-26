@@ -1,7 +1,7 @@
 header {
     position: fixed;
     z-index: 999;
-    top: 10px;
+    top: 0px;
     left: 0;
     right: 0;
     height: 70px;
@@ -25,8 +25,28 @@ header.black {
     height: 100%;
 }
 
+.header-nav {
+    height: 100px;
+    margin-right: 48rem;
+}
+
+.header-nav a {
+    display: inline-block;
+    font-size: 16px;
+    padding: 30px 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    list-style-type: none;
+    color: #FFF;
+    transition: all ease 0.2s;
+}
+
+.header-nav a:hover {
+    color: #999;
+}
+
 .header-user {
-    height: 45px;
+    height: 38px;
 }
 
 .header-user img {
