@@ -1,16 +1,16 @@
 import React from 'react';
-import './header.css'
+import './Header.css'
 
 export default ({ black }) => {
     return (
         <header className={black ? 'black' : ''} >
             <div className='header-logo'>
                 <a href='/'>
-                    <img src='https://user-images.githubusercontent.com/93070498/197669993-de2be1fa-f2a2-422d-bd25-becd8162070e.png' alt='Logotipo Scareflix' />
+                    <img src='https://user-images.githubusercontent.com/115038212/197913878-c586aa2e-b902-4800-b68c-469ecda70857.png' alt='Logotipo Devflix' />
                 </a>
             </div>
             <div className="header-user">
-                <img src='https://user-images.githubusercontent.com/93070498/197670887-f8a8d7e3-55f1-4a47-a842-0f5a46721965.png' alt='Avatar usuário Scareflix' />
+                <img src='https://user-images.githubusercontent.com/115038212/197917713-fd8bc850-91b2-470c-a796-421615e24e7c.png' alt='Avatar usuário Devflix' />
             </div>
 
         </header>
