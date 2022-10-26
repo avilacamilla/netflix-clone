@@ -15,7 +15,7 @@ export default ({item}) => {
         <section className='featured' style={{
             backgroundSize: 'cover',
             backgroundPosition: 'center',
-            backgroundImage: `url(https://image.tmdb.org/t/p/original${item.backdrop_})`
+            backgroundImage: `url(https://image.tmdb.org/t/p/original${item.backdrop_path})`
         }}>
             <div className='featured--vertical'>
                 <div className='featured--horizontal'>
@@ -38,7 +38,7 @@ export default ({item}) => {
                     </div>
                     <div className="featured--buttons">
                         <a href={`/watch/${item.id}`} className='featured--watchbutton'>
-                            Assistir
+                            ▶ Assistir
                         </a>
                         <a href={`/list/add/${item.id}`} className='featured--mylistbutton'>
                             + Minha Lista
