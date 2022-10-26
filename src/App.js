@@ -2,14 +2,14 @@ import React, { useState, useEffect } from 'react'
 import './App.css'
 import Tmdb from './Tmdb'
 
-import FeaturedMovi from './components/FeaturedMovie'
+import FeaturedMovie from './components/FeaturedMovie'
 import Header from './components/Header'
 
 
 export default () => {
   const [blackHeader, setBlackHeader] = useState(false)
   const [movieList, setMovieList] = useState([])
-  const[eaturedData, setFeaturedData] = useState(null)
+  const[featuredData, setFeaturedData] = useState(null)
 
   useEffect(() => {
     const loadAll = async () => {
@@ -21,6 +21,7 @@ export default () => {
       let chosen = originals[0].items.results[randomChosen]
       let chosenInfo = await Tmdb.getMovieInfo(chosen.id, 'tv')
       console.log(chosenInfo)
+      setFeaturedData(chosenInfo)
     }
     loadAll()
   }, [])
@@ -45,6 +46,11 @@ export default () => {
     <div className='page'>
 
       <Header black={blackHeader} />
+
+    {featuredData &&
+      <FeaturedMovie item={featuredData} />
+    }
+
       <div className='lists'>
 
       </div>
