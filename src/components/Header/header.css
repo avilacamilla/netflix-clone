@@ -33,9 +33,9 @@ header.black {
 .header-nav a {
     display: inline-block;
     font-size: 15px;
-    padding: 30px 4px;
+    padding: 28px 4px;
     text-decoration: none;
-    margin-right: 9px;
+    margin-right: 4px;
     list-style-type: none;
     color: #FFF;
     transition: all ease 0.2s;
