@@ -16,6 +16,16 @@ footer {
   text-align: center;
 }
 
+footer .links-footer {
+  text-decoration: none;
+  color: #70b548;
+  transition: all ease 0.2s;
+}
+
+footer .links-footer:hover {
+  color: #70b54856;
+}
+
 .loading {
   position: fixed;
   left: 0;
