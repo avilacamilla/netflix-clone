@@ -56,9 +56,9 @@ export default () => {
       </div>
       
       <footer>
-        Feito por <a href='https://www.linkedin.com/in/avilacamilla'>Camilla Avila</a> <br />
-        <i>Inspiração</i> & <b>Direitos</b> <a href='https://www.netflix.com/br/'>Netflix</a> <br />
-        Dados pegos do site Themoviedb.org
+        Feito por <a className='links-footer' href='https://www.linkedin.com/in/avilacamilla' target='_blank'>Camilla Avila</a>, <br />
+        <i>Inspiração</i> & <b>Direitos</b> <a className='links-footer' href='https://www.netflix.com/br/' target='_blank'>Netflix</a>, <br />
+        Dados pegos do site <a className='links-footer' href="https://www.themoviedb.org/" target='_blank'>Themoviedb.org</a>. 
         
       </footer>
 
