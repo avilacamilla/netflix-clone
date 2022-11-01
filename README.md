@@ -7,7 +7,7 @@ Projeto desenvolvido para estudo de ReactJS no curso de Desenvolvedor Full-Stack
 
 <img src="https://user-images.githubusercontent.com/93070498/199318424-fa8946fa-c30b-4e9d-8edb-c1702cbabe35.png" alt="Tela principal da aplicação" />
 
-Inspiração de Direitos de Imagem são da [Netflix](https://www.netflix.com/).<br>
+Inspiração & Direitos de Imagem são da [Netflix](https://www.netflix.com/).<br>
 Os dados públicos foram adquiridos no site [TMDB](https://www.themoviedb.org/).<br>
 <em>É necessário uma API KEY</em>.
 <br><br>
