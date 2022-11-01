@@ -64,7 +64,7 @@ export default () => {
 
       {movieList.length <= 0 &&
         <div className='Loading'>
-          <img src='https://media.wired.com/photos/592744d3f3e2356fd800bf00/masterw_2560%2Cc_limit/Netflix_LoadTime.gif' alt='Carregando' />
+          <img src='https://user-images.githubusercontent.com/93070498/199291534-fd35d3bd-3305-4394-bdcd-88850343d281.gif' alt='Carregando' />
           </div>
       }
     </div>
