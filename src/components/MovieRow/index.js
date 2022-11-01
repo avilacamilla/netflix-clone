@@ -1,10 +1,7 @@
 import React, { useState } from 'react'
 import './MovieRow.css'
-<<<<<<< HEAD
+
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
-=======
-import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
->>>>>>> feature-netflix
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 export default ({ title, items }) => {
