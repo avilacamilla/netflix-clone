@@ -29,11 +29,7 @@ export default ({ title, items }) => {
 			<h2>{title}</h2>
 			
 			<div className="movieRow--left" onClick={handleLeftArrow}>
-<<<<<<< HEAD
 				<ArrowBackIosIcon />
-=======
-				<ArrowBackIosNewIcon />
->>>>>>> feature-netflix
 			</div>
 			<div className="movieRow--right" onClick={handleRightArrow}>
 				<ArrowForwardIosIcon />
