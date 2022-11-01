@@ -1,10 +1,7 @@
 import React, { useState } from 'react'
 import './MovieRow.css'
-<<<<<<< HEAD
+
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
-=======
-import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
->>>>>>> feature-netflix
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 export default ({ title, items }) => {
@@ -32,11 +29,7 @@ export default ({ title, items }) => {
 			<h2>{title}</h2>
 			
 			<div className="movieRow--left" onClick={handleLeftArrow}>
-<<<<<<< HEAD
 				<ArrowBackIosIcon />
-=======
-				<ArrowBackIosNewIcon />
->>>>>>> feature-netflix
 			</div>
 			<div className="movieRow--right" onClick={handleRightArrow}>
 				<ArrowForwardIosIcon />
