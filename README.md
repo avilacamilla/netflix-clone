@@ -13,5 +13,4 @@ Os dados públicos foram adquiridos no site [TMDB](https://www.themoviedb.org/).
 <br><br>
 Autora: <em>Camilla Avila</em>.
 <br><br>
-<b>Linceça MIT.</b>
 
