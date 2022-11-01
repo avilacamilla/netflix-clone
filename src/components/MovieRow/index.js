@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './MovieRow.css'
-import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore'
-import NavigateNextIcon from '@mui/icons-material/NavigateNext'
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 export default ({ title, items }) => {
 	const [scrollX, setScrollX] = useState(0);
@@ -28,10 +28,10 @@ export default ({ title, items }) => {
 			<h2>{title}</h2>
 			
 			<div className="movieRow--left" onClick={handleLeftArrow}>
-				<span> ◀ </span>
+				<ArrowBackIosIcon />
 			</div>
 			<div className="movieRow--right" onClick={handleRightArrow}>
-				<span> ▶ </span>
+				<ArrowForwardIosIcon />
 			</div>
 			<div className="movieRow--listarea">
 				<div className="movieRow--list" style={{ 
